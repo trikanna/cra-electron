@@ -1,0 +1,26 @@
+{
+  "name": "cra-electron",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "main": "main.js",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "styled-components": "^2.0.1"
+  },
+  "devDependencies": {
+    "electron": "^1.6.10",
+    "foreman": "^2.0.0",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "nf start -p 3000",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-start": "node electron-wait-react",
+    "react-start": "react-scripts start"
+  }
+}
